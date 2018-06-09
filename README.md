@@ -7,10 +7,6 @@ Highly exprimental & limited test coverage
 # Installation 
 `go get github.com/zatte/autocert-gc-cache`
 
-# (Usage) deps
-`go get golang.org/x/crypto/acme/autocert`
-`go get google.golang.org/api/compute/v1`
-`go get golang.org/x/oauth2/google`
 
 # Usage - Example
 ```golang
