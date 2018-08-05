@@ -1,5 +1,12 @@
-# autocert-gc-cache
+# autocert-gc-cache - NON WORKING
 A cache implementation for acme/autocert using google cloud compute/sslCertificates as a certificate storage.
+
+DOES NOT WORK (ATM). The google API implementation for ssl certs does not allow for updating existing certs meaning the processes needs to look like 
+1) Create new cert 
+2) Update all sources using old cert to use new 
+3) Delete old cert
+#2 means a significantly larger scope then expected for this project. Leaving here for other parties who might be considering the same approach.
+
 
 # NOTE
 Highly exprimental & limited test coverage
